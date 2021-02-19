@@ -2,13 +2,8 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.yanxml</groupId>
-    <artifactId>java-test-research</artifactId>
+    <artifactId>java-mock-research</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>java-mock-research</artifactId>
-  <packaging>pom</packaging>
-  <modules>
-  	<module>java-testable-mock-demo</module>
-  	<module>java-testable-mock-springboot</module>
-  </modules>
+  <artifactId>java-testable-mock-springboot</artifactId>
 </project>
