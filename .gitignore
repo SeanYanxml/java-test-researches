@@ -1,21 +1,22 @@
-# Compiled class file
-*.class
-
-# Log file
+.*
+!.gitignore
+!.gitkeep
+*.iml
 *.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
+*.bak
 *.jar
-*.war
-*.nar
-*.ear
-*.zip
+logs/*
+*.py[cod]
+*/bin/
+
 *.tar.gz
-*.rar
+*.tgz
+*.zip
+*.image
+*.log.*
+
+target/
+
+!application.properties
+!.gitkeep
 
